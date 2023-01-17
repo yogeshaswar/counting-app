@@ -1,0 +1,39 @@
+Java Script Notes:
+
+Print:
+1 . console.log();
+2 . alert();
+3 . document.write();
+
+Variables:
+let variableName = Value;
+
+OnClickListener:
+1 . let elementButton = document.querySelector("#btn-id")
+    elementButton.addEventListener("click", fuction Name, false)
+2 . use onclick="fuction() [Fuction Call]" attribute
+
+Functions:
+fuction create?
+function[keyword] countdown()[Fuction Name]{
+    console.log();
+}
+
+how to get HTML element in Js:
+let sampleEL = document.getElementById("element id")
+sampleEL.innerText = counter
+
+#DOM - Document Object Model:
+(aka How you use Js to modify website)
+Document = HTML document
+Object = document keyword is of type Object (taken HTML doc and converted it into Js object)
+Model = representation of HTML to Js 
+
+
+Strings:
+double and single quotes
+
+Note: String always wins - when you try to concatinate number with String
+eg - Console.log("33"[String] + 44) = 3344
+
+Node = fancy way of saying html element
